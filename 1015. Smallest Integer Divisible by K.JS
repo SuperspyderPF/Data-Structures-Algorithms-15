@@ -1,0 +1,1 @@
+smallestRepunitDivByK=x=>{if(!(x%2)||!(x%5))return-1;y=0;m=0;w=100000;while(w--){m=(m*10+1)%x;y++;if(!m)return y;}}
